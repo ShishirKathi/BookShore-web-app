@@ -1,0 +1,19 @@
+const input = cart.line_items;
+
+          // Initialize an empty string to hold the result
+          let resultString = '';
+          
+          // Iterate over the dictionary using Object.entries and for...of loop
+          for (let [key, value] of Object.entries(input)) {
+            // Concatenate the key-value pairs to the result string
+            resultString += `(${value['name']}, ${value['line_total']['formatted_with_symbol']})\n`;
+          }
+          
+          resultString += `\nTotal: (${cart.subtotal['formatted_with_symbol']})\n`;
+          
+          // Remove the last newline character
+          resultString = resultString.trim();
+          
+          // Output the result
+          console.log(resultString);
+          console.log(cart);
