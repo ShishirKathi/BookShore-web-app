@@ -65,37 +65,15 @@ const Mail = ({ email , cart}) => {
           },
           Body: {
             Text: {
-              Data: `<b>Hi</b>Thank you for placing your order!\nYour Order Summary:\n\n${orderSummary}`
+              Data: `Thank you for placing your order!\nYour Order Summary:\n\n${orderSummary}`
             }
           }
         }
       };
-
-      //test mail
-      const xParams = {
-        Source: "shishirint9new2@gmail.com",
-        Destination: {
-          ToAddresses: [email]
-        },
-        Message: {
-          Subject: {
-            Data: 'Failed to send mail'
-          },
-          Body: {
-            Text: {
-              Data: 'Mail was not sent'
-            }
-          }
-        }
-      };
-
       await ses.sendEmail(confirmationParams).promise();
       console.log("Email sent successfully");
     } catch (err) {
       console.error("Error:", err);
-
-      await ses.sendEmail(xParams).promise();
-      console.log("Email sent - err msg");
     }
   };
   }

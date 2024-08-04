@@ -1,15 +1,20 @@
 {
   "dev": {
     "awscloudformation": {
-      "AuthRoleName": "amplify-bookshore-dev-42cd3-authRole",
-      "UnauthRoleArn": "arn:aws:iam::058264429394:role/amplify-bookshore-dev-42cd3-unauthRole",
-      "AuthRoleArn": "arn:aws:iam::058264429394:role/amplify-bookshore-dev-42cd3-authRole",
+      "AuthRoleName": "amplify-bookshoreapp-dev-ff37a-authRole",
+      "UnauthRoleArn": "arn:aws:iam::058264429394:role/amplify-bookshoreapp-dev-ff37a-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::058264429394:role/amplify-bookshoreapp-dev-ff37a-authRole",
       "Region": "us-east-1",
-      "DeploymentBucketName": "amplify-bookshore-dev-42cd3-deployment",
-      "UnauthRoleName": "amplify-bookshore-dev-42cd3-unauthRole",
-      "StackName": "amplify-bookshore-dev-42cd3",
-      "StackId": "arn:aws:cloudformation:us-east-1:058264429394:stack/amplify-bookshore-dev-42cd3/ed687220-4f5e-11ef-bb46-124d1230ae4f",
-      "AmplifyAppId": "dx3j098xl305c"
+      "DeploymentBucketName": "amplify-bookshoreapp-dev-ff37a-deployment",
+      "UnauthRoleName": "amplify-bookshoreapp-dev-ff37a-unauthRole",
+      "StackName": "amplify-bookshoreapp-dev-ff37a",
+      "StackId": "arn:aws:cloudformation:us-east-1:058264429394:stack/amplify-bookshoreapp-dev-ff37a/fd186c00-5267-11ef-9f24-12beaf5e3f75",
+      "AmplifyAppId": "d33d3r546stvs"
+    },
+    "categories": {
+      "auth": {
+        "bookshoreappb1a6b87a": {}
+      }
     }
   }
 }

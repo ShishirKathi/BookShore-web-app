@@ -43,13 +43,6 @@ const Checkout = ({ cart, onCaptureCheckout, order, error }) => {
     nextStep();
   };
 
-  useEffect(() => {
-    if (cart) {
-      // const summary = generateOrderSummary(cart);
-      // setOrderSummary(summary);
-    }
-  }, [cart]);
-
   let Confirmation = () => (order.customer ? (
     <>
       <div>
