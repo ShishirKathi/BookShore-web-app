@@ -3,16 +3,11 @@
 <h1 align="center">BOOK Ecommerce STORE USING REACTJS </h1>
 
 
-# BOOK Shop Description
-    Book Shop is an online React web application where the customer can purchase books online.
+# BookShore Description
+    BookShore is an online React web application where the customer can purchase books online.
     Through this book store the users can search for a book by its title and
     later can add to the shopping cart and finally purchase using credit card transaction.
     
- ##   [Live App Demo](https://akshatbookstore.netlify.app/)
- 
- 
- ![Alt text](https://github.com/Akshatjalan/Book-store-Reactjs/blob/main/src/assets/Web.jpg?raw=true "Main Page")
-
 # Tools Used
 
 - Build with `ReactJS`, `Javascript`, `HTML`, `CSS`.
@@ -45,27 +40,4 @@ The build is minified and the filenames include the hashes.<br>
 The app is ready to be deployed!
 
 See the section about [deployment](#deployment) for more information.
-
-## Contact 
- <h3 align="center">
-  <code> Akshat Jalan </code>
-</h3>
-  <p align="center"> 
-
-  <a href="https://github.com/Akshatjalan">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Github.svg" width="30" height="30" hspace="20">
-  </a>
-
-  <a href="https://www.linkedin.com/in/akshat-jalan/">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/LinkedIN.svg" width="30" height="30" hspace="20">
-  </a>
-
-  <a href="https://www.instagram.com/akshatxjalan/">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Instagram.svg" width="30" height="30" hspace="20">
-  </a>
-    <a href="mailto:jalanakshat2@gmail.com">
-    <img src="https://github.com/Akshatjalan/akshat/blob/master/Color/Gmail.svg"  width="30" height="30" hspace="20">
-  </a>
-
-</p>
 
